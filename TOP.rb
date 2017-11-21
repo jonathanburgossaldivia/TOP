@@ -8,6 +8,8 @@ sum = 0
 hilos = []
 
 puts ""
+puts "Tool by Jonathan Burgos Saldivia >"
+puts ""
 for i in 1..1024 do
 	hilos << Thread.new(i) do |j|
 		begin
