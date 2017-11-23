@@ -36,7 +36,7 @@ end
 range = options[:range].to_i
 
 if range.to_s.empty?
-	range  = 80
+	range  = 500
 end
 
 puts "Tool by Jonathan Burgos Saldivia >"
