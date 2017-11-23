@@ -35,7 +35,7 @@ end
 
 range = options[:range].to_i
 
-if range.to_s.empty?
+if range == 0
 	range  = 500
 end
 
