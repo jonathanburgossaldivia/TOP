@@ -39,7 +39,6 @@ if range.to_s.empty?
 	range  = 80
 end
 
-puts ""
 puts "Tool by Jonathan Burgos Saldivia >"
 puts ""
 for i in 1..range do
